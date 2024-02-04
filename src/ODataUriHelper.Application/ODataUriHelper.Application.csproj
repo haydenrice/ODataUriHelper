@@ -3,10 +3,25 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>OdataUriHelper</PackageId>
+    <ProjectUrl>https://github.com/haydenrice/ODataUriHelper</ProjectUrl>
+    <RepositoryUrl>https://github.com/haydenrice/ODataUriHelper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <README>https://github.com/haydenrice/ODataUriHelper/blob/main/README.md</README>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
     <Version>1.0.1</Version>
     <Authors>Hayden Rice</Authors>
+    <Description>
+      This library provides a custom constructor for uniform resource identifiers (URIs) that represent
+      an OData v4.01 query.
+    </Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <InternalsVisibleTo Include="ODataUriHelper.Tests" />
