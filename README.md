@@ -4,7 +4,7 @@ Helps build OData URIs and queries according to the [OData v4.01 Documentation](
 
 ### Installing ODataUriHelper
 
-You should install [ODataUriHelper with NuGet](http://www.nuget.org/packages)
+You should install [ODataUriHelper with NuGet](http://www.nuget.org/packages/OdataUriHelper)
 
     Install-Package ODataUriHelper
 
