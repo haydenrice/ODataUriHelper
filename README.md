@@ -1,6 +1,6 @@
 OData Uri Helper implementation in .NET
 
-Helps build OData URIs and queries according to the OData v4.01.
+Helps build OData URIs and queries according to the [OData v4.01 Documentation](https://www.odata.org/documentation).
 
 ### Installing ODataUriHelper
 
