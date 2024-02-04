@@ -10,7 +10,7 @@
     <README>https://github.com/haydenrice/ODataUriHelper/blob/main/README.md</README>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>Hayden Rice</Authors>
     <Description>
       This library provides a custom constructor for uniform resource identifiers (URIs) that represent

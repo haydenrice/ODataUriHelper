@@ -4,9 +4,9 @@ Helps build OData URIs and queries according to the [OData v4.01 Documentation](
 
 ### Installing ODataUriHelper
 
-You should install [ODataUriHelper with NuGet](http://www.nuget.org/packages/OdataUriHelper)
+You should install [OdataUriHelper with NuGet](http://www.nuget.org/packages/OdataUriHelper)
 
-    Install-Package ODataUriHelper
+    Install-Package OdataUriHelper
 
 Or via the .Net Core command line interface:
 
@@ -18,7 +18,7 @@ Either commands, from Package Manager Consol or .NET Core CLI, will download and
 
 ### Registering with `IServicesCollection`
 
-To register ODataUriHelper:
+To register OdataUriHelper:
 
 ```
 services.AddODataUriHelper();
