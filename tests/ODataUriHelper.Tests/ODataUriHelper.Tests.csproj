@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ODataUriHelper.Application\ODataUriHelper.Application.csproj" />
+    <ProjectReference Include="..\..\src\ODataUriHelper\ODataUriHelper.csproj" />
   </ItemGroup>
 
 </Project>

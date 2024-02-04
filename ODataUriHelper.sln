@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataUriHelper.Application", "src\ODataUriHelper.Application\ODataUriHelper.Application.csproj", "{E16ED2CE-F9A2-466B-B0FD-C892C4385B5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataUriHelper", "src\ODataUriHelper\ODataUriHelper.csproj", "{E16ED2CE-F9A2-466B-B0FD-C892C4385B5B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataUriHelper.Tests", "tests\ODataUriHelper.Tests\ODataUriHelper.Tests.csproj", "{4336630D-857B-4A76-83C8-8A8C07A2BE4C}"
 EndProject
@@ -11,9 +11,6 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E16ED2CE-F9A2-466B-B0FD-C892C4385B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +21,8 @@ Global
 		{4336630D-857B-4A76-83C8-8A8C07A2BE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4336630D-857B-4A76-83C8-8A8C07A2BE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4336630D-857B-4A76-83C8-8A8C07A2BE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
